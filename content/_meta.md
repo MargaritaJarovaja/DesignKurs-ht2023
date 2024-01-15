@@ -3,7 +3,7 @@ Logo: image/fox.png
 Tagline: My portfolio.
 Social:
   - title: Link till sidans github repo.
-    url: https://github.com/MargaritaJarovaja/design-ht23.git
+    url: https://github.com/MargaritaJarovaja/DesignKurs-ht2023.git
     icon: fab fa-github
   - title: Link till sidans Instagram.
     url: https://www.instagram.com/your_instagram

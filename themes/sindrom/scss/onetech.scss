@@ -1,0 +1,45 @@
+.container_onetech{
+    display:flex ;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.onepage {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 8rem;
+}
+
+.side_list{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem 2rem 1rem;
+}
+
+.post{
+padding: 1rem 0rem;
+}
+
+@media (max-width: 840px) {
+    .container_onetech {
+      flex-direction: column;
+    }
+
+    .onepage {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .side_list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post{
+        padding: 0rem 1rem;
+    }
+
+    .onepage h1, .side_list h4 {
+      font-size: smaller;
+    }
+  }

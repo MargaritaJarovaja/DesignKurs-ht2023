@@ -6504,43 +6504,16 @@ pre code {
   font-size: larger;
 }
 
-.container_onetech {
+.contaner {
   display: flex;
   flex-direction: row;
-  margin: 2rem;
 }
 
 .onepage {
   display: flex;
-  flex-direction: column;
-  padding: 1rem 8rem;
+  flex-direction: row;
 }
 
-.side_list {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 3rem 2rem 1rem;
-}
-
-.post {
-  padding: 1rem 0rem;
-}
-
-@media (max-width: 840px) {
-  .container_onetech {
-    flex-direction: column;
-  }
-  .onepage {
-    margin: 0;
-    padding: 1rem;
-  }
-  .post {
-    padding: 0rem 1rem;
-  }
-  .onepage h1, .side_list h4 {
-    font-size: smaller;
-  }
-}
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
@@ -6635,4 +6608,4 @@ body {
   gap: 1em 1em;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.cs.map */
