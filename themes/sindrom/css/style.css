@@ -6422,6 +6422,7 @@ template {
   display: none;
 }
 
+/* dark-style*/
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6534,6 +6535,10 @@ pre code {
     margin: 0;
     padding: 1rem;
   }
+  .side_list {
+    display: flex;
+    flex-direction: column;
+  }
   .post {
     padding: 0rem 1rem;
   }
@@ -6552,6 +6557,14 @@ pre code {
 h1, h2, h3, h4, h5, h6 {
   font-family: "DM Serif Display", serif;
   font-size: 30px;
+}
+
+h2 {
+  padding: 2rem 0rem;
+}
+
+h3 {
+  padding: 2rem 10rem;
 }
 
 .hidden {
@@ -6634,5 +6647,3 @@ body {
   display: grid;
   gap: 1em 1em;
 }
-
-/*# sourceMappingURL=style.css.map */

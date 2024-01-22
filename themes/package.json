@@ -9,7 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
     "style": " sass  sindrom/scss/style.scss sindrom/css/style.css --no-source-map",
-    "style-min": " sass sindrom/scss/style.scss sindrom/css/style.min.css --no-source-map --style compressed"
+    "style-min": " sass sindrom/scss/style.scss sindrom/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass sindrom/scss/style-dark.scss sindrom/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass sindrom/scss/style-dark.scss sindrom/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass sindrom/scss/style.scss sindrom/css/style.css --no-source-map",
+    "style-light-min": "sass sindrom/scss/style.scss sindrom/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
